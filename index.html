@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            background-image: url(https://static.vecteezy.com/system/resources/thumbnails/031/586/359/small/many-men-experience-the-widespread-phenomenon-of-loneliness-in-society-ai-generated-photo.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+
+        nav {
+            display: flex;
+            list-style: none;
+            justify-content: space-evenly;
+            padding: 10px;
+        }
+
+        a {
+            font-size: x-large;
+        }
+
+        a:hover {
+            background-color: yellow;
+        }
+
+        .para {
+            font-size: xx-large;
+            margin-left: 20%;
+        }
+
+        .p1 {
+
+            margin-left: 20%;
+            color: white;
+        }
+
+        button {
+            margin-left: 20%;
+            height: 3em;
+            width: 10em;
+        }
+
+        .container {
+            display: flex;
+            gap: 45px;
+            justify-content: center;
+        }
+
+        .card {
+            border: 2px solid;
+            width: 20vh;
+            height: 20vh;
+            position: relative;
+        }
+
+        img {
+            position: absolute;
+            left: 30px;
+            top: 10px;
+        }
+
+        footer {
+            background-color: cadetblue;
+            width: 100%;
+            height: 50vh;
+            margin-top: 10%;
+        }
+
+        .Quick {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        @media only screen and (width<600px) {
+
+            nav,
+            .container,
+            .Quick {
+                display: flex;
+                flex-direction: column;
+            }
+
+            h4 {
+                padding: 1em;
+            }
+
+            header {
+                background-image: url(https://static.vecteezy.com/system/resources/thumbnails/031/586/359/small/many-men-experience-the-widespread-phenomenon-of-loneliness-in-society-ai-generated-photo.jpg);
+                background-repeat: repeat-x;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                overflow: hidden;
+            }
+            .Quick{
+                background-color: cadetblue;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="">Travel</a>
+
+            <li><a href="">Home</a></li>
+            <li><a href="">Serivces</a></li>
+            <li><a href="">Contact Us</a></li>
+
+        </nav>
+        <div>
+            <p class="para">Fuel Mind</p>
+            <p class="para">Travel</p>
+            <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis excepturi hic consequatur
+                sit, quos
+                tenetur sequi pariatur earum, porro accusamus maxime, deleniti magni amet ea. Obcaecati, delectus
+                corporis! Consequuntur, est.</p>
+            <button type="submit">Let's Go Now</button>
+        </div>
+    </header>
+    <section>
+        <h4>Travel</h4>
+        <h4>Start Your Vacation With lots of services</h4>
+        <div class="container">
+            <div class="card">
+                <img src="testimonial-img-01.jpg" alt="image" width="50%">
+                <div>
+                    <p>Ship Curise</p>
+                    <p>150 properties</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="testimonial-img-01.jpg" alt="image" width="50%">
+                <div>
+                    <p>Ship Curise</p>
+                    <p>150 properties</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="testimonial-img-01.jpg" alt="image" width="50%">
+                <p>Ship Curise</p>
+                <p>150 properties</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="Quick">
+            <div>
+                <h6>Quick links</h6>
+                <p>About</p>
+                <p>Term and conditions</p>
+                <p>privacy and policy</p>
+                <p>Help</p>
+                <p>Tour</p>
+            </div>
+            <div>
+                <h6>Quick links</h6>
+                <p>About</p>
+                <p>Term and conditions</p>
+                <p>privacy and policy</p>
+                <p>Help</p>
+                <p>Tour</p>
+            </div>
+            <div>
+                <h6>Quick links</h6>
+                <p>About</p>
+                <p>Term and conditions</p>
+                <p>privacy and policy</p>
+                <p>Help</p>
+                <p>Tour</p>
+            </div>
+            <div>
+                <h6>Contact</h6>
+                <p>circle</p>
+                <p>circle</p>
+                <p>circle</p>
+                <p>circle</p>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>
